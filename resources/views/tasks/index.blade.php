@@ -42,7 +42,7 @@
                                 <form action="/task/{{$task->id}}" method="POST">
                                     {{csrf_field()}}
                                     {{method_field('DELETE')}}
-                                    <button>Удалить задачу</button>
+                                    <button>Удалить эту задачу</button>
                                 </form>
                             </td>
                         </tr>
